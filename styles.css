@@ -1,10 +1,11 @@
 h1 {
     text-align: center;
-    border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:crimson;
 }
 #list {
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 #list p {
     margin: 10px;
@@ -12,4 +13,56 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     font-weight: bold;
+}
+img {
+    display: block;
+    margin: auto;
+    padding-bottom: 7px;
+}
+.description {
+    border: px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.description, h2, p {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.ingredients {
+    border: 1px gray solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 2px;
+    padding: 0px 35px;
+}
+.preparation {
+    border: 1px gray solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 2px;
+    padding: 0px 35px;
+}
+.recipe-spec {
+    display: flex;
+    border: 1px solid gray;
+    padding: 7px;
+    margin-top: 2px;
+}
+#prep-time, #cook-time, #servings {
+    width: 230px;
+    flex-grow: 1;
+    padding: 0;
+}
+#prep-time > h3, #cook-time > h3, #servings > h3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 5px;
+    margin: 1px 1px;
+}
+#prep-time > p, #cook-time > p, #servings > p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
